@@ -1,6 +1,6 @@
 module "s3_bucket" {
   source  = "app.terraform.io/Enterprise-Cloud/s3-bucket/aws"
-  version = "1.15.0"
+  version = "1.17.0"
 
   acceleration_status = "Enabled"
   bucket = "gabe"
